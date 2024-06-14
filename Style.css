@@ -1,13 +1,11 @@
-*,
- html{
+html {
     margin: 0;
     padding: 0:
 }
 .container {}
-body{ 
-}
-.container-navbar{
-    background-color: #333;
+
+.container-navbar {
+    background-color: crimson;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,34 +13,61 @@ body{
     height: 10vh;
 }
 
-.ul-navbar{
+.ul-navbar {
     display: flex;
     height: 100px;
     justify-content: center;
     align-items: center;
 }
 
-.li-navbar{
+.li-navbar {
     list-style-type: none;
     padding: 20px;
     margin: 5px;
     color: white;
     font-size: 30px;
-    
+}
+.li-navbar:hover {
+    background-color:tomato;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+
+}
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
 }
 
 .container-content {
-    background-color: black;
+    background-color: #f7f7f7;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
-
 }
 
+.a-content {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
 .img-content {
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
 }
 
 .container-footer {
@@ -55,4 +80,5 @@ body{
 
 .h1-footer {
     font-size: 40px;
+    color: white;
 }
